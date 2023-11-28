@@ -20,8 +20,8 @@ const myStyle = {
         fontFamily: "Georgia"
     }
  };
-
-function CardApp( prop  ) {
+ //      CardApp( {description, href, src} )
+function CardApp( prop  ) {   
 
     //console.log( prop );
     console.log( prop.description );
