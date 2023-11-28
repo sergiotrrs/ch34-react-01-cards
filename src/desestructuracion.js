@@ -96,3 +96,12 @@ const myStyle = {
         fontFamily: "Georgia"
     }
  };
+
+ // crear una funció que lea el color y fontSize
+ // del obejto "vitual"
+ // "Para los objetos virtuales el color es green y tamaño 18"
+ const mostrarColorTamanio = ({ virtual: {color, fontSize} }) => {
+    console.log(`Para los objetos virtuales el color es ${color} y tamaño ${fontSize}`);
+  }
+  
+  mostrarColorTamanio(myStyle);
